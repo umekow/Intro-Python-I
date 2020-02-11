@@ -30,3 +30,5 @@ len(x)
 # YOUR CODE HERE
 for num in x:
     print(num * 1000)
+
+    

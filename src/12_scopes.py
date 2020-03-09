@@ -17,6 +17,7 @@ print(x)
 
 # This nested function has a similar problem.
 
+
 def outer():
     y = 120
 

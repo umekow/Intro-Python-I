@@ -23,11 +23,10 @@ f.close()
 
 g = open('bar.txt', 'w')
 
-for x in range(4): 
+for x in range(4):
     g.write("Line " + str(x))
 g.close()
 
 h = open('bar.txt', 'r')
 lines = h.read()
 print(lines)
-

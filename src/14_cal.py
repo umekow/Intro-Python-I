@@ -33,17 +33,19 @@ from datetime import datetime
 
 date = sys.argv
 
-def createCalendar(): 
-  global date
-  print(date)
 
-  if len(date) == 1: 
-    print(calendar.month(datetime.now().year, datetime.now().month, 2, 1))
-  if len(date) == 2: 
-    print(calendar.month(datetime.now().year, int(date[1]), 2, 1 ))
-  if len(date) == 3: 
-    print(calendar.month(int(date[2]), int(date[1]), 2, 1 ))
-  if len(date) == 0:
-    print('expected arguments to be given')
+def createCalendar():
+    global date
+    print(date)
+
+    if len(date) == 1:
+        print(calendar.month(datetime.now().year, datetime.now().month, 2, 1))
+    if len(date) == 2:
+        print(calendar.month(datetime.now().year, int(date[1]), 2, 1))
+    if len(date) == 3:
+        print(calendar.month(int(date[2]), int(date[1]), 2, 1))
+    if len(date) == 0:
+        print('expected arguments to be given')
+
 
 createCalendar()

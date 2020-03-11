@@ -19,25 +19,23 @@
 
 # Will revise later
 
-def isItPrime(num): 
+
+def isItPrime(num):
     nums = [x for x in range(2, num + 1)]
     # cross out every 2nd number in the list after 2 by counting up from 2 in increments of
     numbers = [2, 3, 5, 7]
-    for x in nums: 
-        if x in numbers: 
+    for x in nums:
+        if x in numbers:
             comp = nums[x:]
-            for y in comp: 
-                if y % x == 0: 
+            for y in comp:
+                if y % x == 0:
                     nums.remove(y)
-    
-    if num in nums: 
-        return str(num) + " is a prime number"
-    else: 
-        return str(num) + " is not a composite number"
-    
 
-        
-  
+    if num in nums:
+        return str(num) + " is a prime number"
+    else:
+        return str(num) + " is not a composite number"
+
 
 print(isItPrime(2))
 print(isItPrime(3))

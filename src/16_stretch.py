@@ -16,7 +16,6 @@
     4.Find the first number greater than p in the list that is not marked. If there was no such number, stop. Otherwise, let p now equal this new number (which is the next prime), and repeat from step 3.
     5.When the algorithm terminates, the numbers remaining not marked in the list are all the primes below n.
 """
-
 # Will revise later
 
 

@@ -45,7 +45,7 @@ def createCalendar():
     if len(date) == 3:
         print(calendar.month(int(date[2]), int(date[1]), 2, 1))
     if len(date) == 0:
-        print('expected arguments to be given')
+        print("expected arguments to be given")
 
 
 createCalendar()

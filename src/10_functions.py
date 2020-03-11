@@ -19,6 +19,6 @@ num = int(num)
 # YOUR CODE HERE
 
 if is_even(num) == True:
-    print('Even!')
+    print("Even!")
 else:
-    print('Odd')
+    print("Odd")

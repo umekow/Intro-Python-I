@@ -9,7 +9,7 @@
     Requirements for prime
     - greater than 1
     - any even number that is greater than 2 is not prime
-    
+
     1.Create a list of consecutive integers from 2 through n: (2, 3, 4, ..., n).
     2.Initially, let p equal 2, the smallest prime number.
     3.Enumerate the multiples of p by counting in increments of p from 2p to n, and mark them in the list (these will be 2p, 3p, 4p, ...; the p itself should not be marked).
